@@ -10,7 +10,7 @@ namespace Tyuiu.FrankK.Sprint1.Task6.V8.Test
             DataService ds = new DataService();
             string a = "сегодня хороший день";
             string b = ds.MoveLetterToEnd(a);
-            Assert.AreEqual("егоднс орошийх еньд", b);
+            Assert.AreEqual("егодняс орошийх еньд", b);
         }
     }
 }
