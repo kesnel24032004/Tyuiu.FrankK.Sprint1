@@ -6,10 +6,10 @@ namespace Tyuiu.FrankK.Sprint1.Task3.V3
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-            Console.WriteLine("Введите длина: ");
+            Console.WriteLine("Введите длину: ");
             double ч;
             ч = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Введите ширина: ");
+            Console.WriteLine("Введите ширину: ");
             double x;
             x = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите высоту: ");
