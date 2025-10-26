@@ -11,7 +11,7 @@ namespace Tyuiu.FrankK.Sprint1.Task0.V6.Test
         {
             DataService ds = new DataService();
             var res = ds.Calculate();
-            Assert.AreEqual(4.5, res);
+            Assert.AreEqual(-10.5, res);
         }
     }
 }

@@ -5,7 +5,7 @@ namespace Tyuiu.FrankK.Sprint1.Task0.V10.Lib
     {
         public double Calculate()
         {
-            double res =  (3.0/(6.0-4.0))*3;
+            double res =  (3.0/6.0-4.0)*3;
             return res;
         }
     }
